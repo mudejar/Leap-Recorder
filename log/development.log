@@ -41,3 +41,415 @@ Started GET "/" for 127.0.0.1 at 2014-12-11 20:27:01 -0800
 Processing by ApplicationController#hello as HTML
   Rendered text template (0.0ms)
 Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 22:12:13 -0800
+Processing by ApplicationController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: :/views/welcome` to `controller: :/views/welcome`. (called from block in <top (required)> at /home/badr/workspace/LeapRecorder/config/routes.rb:8)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 22:24:21 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Warning. Error encountered while saving cache b35ef5e433065b7b53af8514af40795dca7f1688/welcome.css.scssc: can't dump anonymous class #<Class:0x007f7310f62f18>
+
+Completed 200 OK in 386ms (Views: 379.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-11 22:24:22 -0800
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 127.0.0.1 at 2014-12-11 22:24:22 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-11 22:24:22 -0800
+
+
+Started GET "/assets/jquery_ujs-29277b946c1d3754af13672bfec0c660.js?body=1" for 127.0.0.1 at 2014-12-11 22:24:22 -0800
+
+
+Started GET "/assets/turbolinks-3a7cdb8630f3e86770867bd488a098e0.js?body=1" for 127.0.0.1 at 2014-12-11 22:24:22 -0800
+
+
+Started GET "/assets/application-ef54359dffd3a68f0fcb465e2914a11b.js?body=1" for 127.0.0.1 at 2014-12-11 22:24:22 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-11 22:24:22 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 22:37:14 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 258ms (Views: 252.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/affix-99691a35d8da57bed991793a041b3093.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/alert-f76ec816bdcc68a2282059928ef1e52d.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/button-7404970dda5275bf4aa732d8ef1db223.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/carousel-068283bc5c7dcc97bb7ae9f715a7c198.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/dropdown-58cd9071a88158a9a95dda2320da8a92.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/collapse-30e20a116624ac34a357dc825b2ab8f2.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/modal-98b3faca355a223ded5349bc93bdd4a7.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/popover-1fad9cb69620161b2a0c5c6ea67ae644.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/scrollspy-f9ba5cb4717a71f39303d90f29813c97.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/tab-7d45589786306b417d1664184ca8fbf8.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/transition-79362283457bd064d3b7ff06acb0f011.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/tooltip-ad8aa40c8d62097d02080d81c3d49762.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/assets/application-dcb629850cc345d608eae6942ef85bdb.js?body=1" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.rc2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0.rc2) lib/rails/application.rb:164:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0.beta2) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta2) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/js/bootstrap.min.js" for 127.0.0.1 at 2014-12-11 22:37:15 -0800
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.rc2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0.rc2) lib/rails/application.rb:164:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0.beta2) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta2) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 22:54:26 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Warning. Error encountered while saving cache b35ef5e433065b7b53af8514af40795dca7f1688/application.css.sassc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache e6949e025f166e6cd58bc4c4b294234c3f3a06a8/_bootstrap-sprockets.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache e6949e025f166e6cd58bc4c4b294234c3f3a06a8/_bootstrap.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_variables.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_mixins.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_hide-text.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_opacity.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_image.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_labels.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_reset-filter.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_resize.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_size.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_tab-focus.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_text-emphasis.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_text-overflow.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_alerts.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_buttons.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_panels.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_pagination.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_list-group.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_nav-divider.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_forms.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_progress-bar.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_table-row.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_background-variant.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_border-radius.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_gradients.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_clearfix.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_center-block.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_grid-framework.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache ddb50f2ce56565a2bf710e0453330ba947fe8155/_grid.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_normalize.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_print.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_glyphicons.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_scaffolding.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_type.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_code.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_grid.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_tables.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_forms.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_buttons.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_component-animations.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_dropdowns.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_button-groups.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_input-groups.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_navs.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_navbar.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_pagination.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_pager.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_labels.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_badges.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_jumbotron.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_thumbnails.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_alerts.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_progress-bars.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_media.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_list-group.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_panels.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_responsive-embed.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_wells.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_close.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_modals.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_tooltip.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_popovers.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_carousel.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_utilities.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Warning. Error encountered while saving cache 9a2690d9841d368ccb0b847bc8e7f9fdbb6e1947/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x007f7a085b2a50>
+
+Completed 200 OK in 2452ms (Views: 2445.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c207464090bed355793fe2a6ebe9c5db.css?body=1" for 127.0.0.1 at 2014-12-11 22:54:28 -0800
+
+
+Started GET "/assets/bootstrap/affix-a9b852fe44dc5982a51ffb66baa3ab2e.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:28 -0800
+
+
+Started GET "/assets/bootstrap/alert-12c1121c517b3085934c9173c0e083ed.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:28 -0800
+
+
+Started GET "/assets/bootstrap/carousel-1aca75d21b33f868f2d7b289fb1ad98d.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:28 -0800
+
+
+Started GET "/assets/bootstrap/button-422bd197e0b53d2f7477cb521776aadb.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/collapse-20bda228e0a68013abcfe4ce3a88ac87.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/dropdown-85b34e99a6b5bb1a35c8751aed3e09d7.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/tab-bb31fbcdd9289a81d659f197fca0efd0.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/transition-20c428b2eccf2dcfaf8de396b7ad7b26.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy-fca31083878040fe5fa93a655aed11ba.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/modal-19058d2f94ebcfb1a44bbfb8a52b8661.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/tooltip-fe9092020b9bc68210dc1de9c589d39c.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap/popover-7285d8d5ce28a05ba8b9fce5fcd87f74.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/bootstrap-sprockets-b4bc28516a4674c29125b9de32ccd9d3.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/assets/application-c3a720dd49a2d509250a8e02bac88c68.js?body=1" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.rc2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0.rc2) lib/rails/application.rb:164:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0.beta2) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta2) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/js/bootstrap.min.js" for 127.0.0.1 at 2014-12-11 22:54:29 -0800
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.rc2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.rc2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.rc2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.rc2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0.rc2) lib/rails/application.rb:164:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0.beta2) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta2) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 23:05:40 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 353ms (Views: 347.7ms | ActiveRecord: 0.0ms)
